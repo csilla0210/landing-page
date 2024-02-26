@@ -8,30 +8,32 @@
 </head>
 <body>
     <header class="dark-bg">
-        <div class="logo">Header Logo</div>
+        <div class="container row wide">
+            <div class="logo">Header Logo</div>
         <ul class="navigation">
             <li>header link one</li>
             <li>header link two</li>
             <li>header link three</li>
         </ul>
+        </div>
     </header>
     <div class="main-content">
-        <div>
-            <div>
-                <div>
+        <div class="dark-bg">
+            <div class="first container row wide">
+                <div class="column left">
                     <h1>This website is awesome</h1>
                     <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-                    <button>Sign up</button>
+                    <button class="dark-button">Sign up</button>
                 </div>
                 <div>
-                    <img src="https://images.unsplash.com/photo-1708545261611-9440ed260288?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="600" height="auto">
+                    <img src="https://images.unsplash.com/photo-1708545261611-9440ed260288?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="500" height="auto">
                 </div>
 
             </div>
         </div>
-        <div>
+        <div class="second narrow-container column">
             <h2>Some random information.</h2>
-            <div>
+            <div class="row">
                 <div class="card">
                     <div class="rounded-rectangle"></div>
                     <p>this is some subtext under an illustration or image</p>
@@ -50,23 +52,33 @@
                 </div>
             </div>
         </div>
-        <div>
-            <p>
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. 
-            </p>
-            <p class="author">Thor, God of Thunder</p>
+        <div class="third light-bg column">
+            <div class="narrow-container ">
+                <p class="testimonial">
+                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. 
+                </p>
+                <p class="author">Thor, God of Thunder</p>
+            </div>
+
         </div>
-        <div>
-            <div>
+        
+            <div class="fourth container column">
+                <div class="row wide signup">
+                    <div>
+                        <p class="signup-title">Call to action! It's time!</p>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+
+                    </div>
+                
+                <button class="light-button">Sign up</button>
+            </div>
+                </div>
                 <div>
-                    <p>Call to action! It's time!</p>
-                    <p>Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <button>Sign up</button>
+
             </div>
-        </div>
+    
     </div>
-    <footer>
+    <footer class="dark-bg">
         <p>Copyright &#169; The Odin Project 2021</p>
     </footer>    
 </body>
